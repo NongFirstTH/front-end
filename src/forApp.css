@@ -1,0 +1,136 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;        
+  overflow-y: auto;
+}
+
+.centered-image {
+  margin-bottom: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-cols {
+  flex-direction: column;
+}
+
+.creation-section {
+  margin-right: 20px;
+}
+
+.players-section {
+  flex: 1;
+}
+
+form {
+margin-bottom: 20px;
+display: flex; /* Make the form flex container */
+justify-content: center; /* Center items horizontally */
+text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #070F2B; /* Your desired background color */
+}
+
+.form-group {
+  align-items: center; /* Align items vertically */
+  margin-right: 20px;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin-right: 10px; /* Adjust spacing between label and input */
+  font-size: 25px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px; /* Reduce padding */
+  width: 400px; /* Decrease width */
+  border-radius: 5px; /* Smaller border radius */
+  border: 1px solid #ccc;
+  font-size: 25px; /* Reduce font size */
+}
+
+button {
+  padding: 10px 20px; /* Adjusted padding for smaller button */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 25px;
+  /* Adding gradient */
+  background-image: linear-gradient(to bottom, #007bff, #0056b3);
+  /* Adding box-shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adding transition for smoother hover effect */
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Adjusted hover background color */
+  /* Adding hover effect for box-shadow */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+  background-color: #ccc; /* Light gray background (original) */
+  color: #666; /* Dark gray text color (original) */
+  cursor: not-allowed; /* Change cursor to indicate disabled state (original) */
+
+  /* New styles for disabled button */
+  background-image: none; /* Remove gradient for disabled button */
+  box-shadow: none; /* Remove box-shadow for disabled button */
+}
+
+input:disabled {
+  background-color: #f4f4f4; /* Light gray background */
+  color: #000; /* Black text color */
+}
+
+button:disabled {
+  background-color: #ccc; /* Light gray background */
+  color: #666; /* Dark gray text color */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
+.creation-section label {
+  margin-top: 8px;
+}
+.centered-button {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content (optional) */
+}
+
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
